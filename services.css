@@ -1,0 +1,196 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*navigation bar*/
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-family: cursive;
+    width: 152%;
+}
+
+/*navigation bar: logo and image*/
+#logo {
+    margin: 10px 24px;
+    margin-left: 47px;
+}
+
+#logo img {
+    margin: 1px 10px;
+    height: 42px;
+    width: 41px;
+}
+
+.searchbar {
+    margin: 0px 340px;
+    padding: 0px 59px;
+    /**background-color:rgb(181, 227, 89);**/
+    height: 42px;
+    width: 580px;
+    display: flex;
+}
+
+.searchbar input {
+    border-radius: 8px;
+    margin: 2px 15px;
+    padding: 3px 20px;
+    height: 42px;
+    flex: 1;
+    border: 1.3px solid black;
+    font-size: 15px;
+    outline: none;
+
+}
+
+.searchbar button {
+    background-color: rgb(255, 217, 0);
+    height: 42px;
+    padding: 12px 19px;
+    margin: 1px -13px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.text {
+    font-size: 26px;
+    color: rgb(255, 0, 0);
+}
+
+.redirect {
+    margin: 1px 19px;
+}
+
+/*services section*/
+#services {
+    margin: 34px 72px;
+    display: flex;
+    width: 100%;
+}
+
+#services .box {
+    /* border: 2px solid brown;*/
+    text-align: left;
+    justify-content: center;
+    padding: 0px 38px;
+    margin: 0px 10px;
+    border-radius: 20px;
+    height: 288px;
+    width: 352px;
+    /*background-color: rgb(234, 227, 227);*/
+    box-shadow: 10px 10px 10px rgb(165, 165, 153);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    transition: 0.6s;
+}
+.box:hover{
+    transform: scale(1.04);
+}
+#services .box img {
+    height: 172px;
+    width: 334px;
+    display: block;
+    margin: 0px -20px;
+
+    border-radius: 8px;
+}
+
+#services .box h2 {
+    font-family: cursive;
+    font-size: 20px;
+    margin: 6px -9px;
+}
+
+#services .box p {
+    font-size: 14px;
+    margin: -2px -9px;
+}
+
+#services a {
+    text-decoration: none;
+    color: black;
+}
+
+.box .rating {
+    background-color: green;
+    font-size: 14px;
+    border-radius: 5px;
+    height: 22px;
+    width: 35px;
+    color: white;
+    margin: 2px 252px;
+    padding: 1px 5px;
+}
+/*contact section*/
+.Contact-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 21px;
+}
+#contact-us::before{
+      content: "";
+      position: absolute;
+      background: url("contact us.jpg");
+      height: 44%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.79;
+}
+.email img{
+    height: 70px;
+    padding: 2px;
+    margin: 28px;
+    
+}
+.contimg img{
+    height: 98px;
+    padding: 2px;
+    filter: brightness(65%);
+    margin: 27px;
+}
+.conhead{
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    padding: 15px 560px;
+}
+#about-us{
+    position: absolute;
+    height: 35%;
+    width: 100%;
+    background-color:black ;
+    color: white;
+}
+.abouthead{
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px 570px;
+}
+#about-us a{
+    text-decoration: none;
+    color: white;
+}
+#about-us a:hover{
+    color: orangered;
+}
+#about-us p{
+    margin: 15px 18px;
+    font-size: 16px;
+}
+#locimg{
+    height: 16px;
+    width: 14px;
+    margin: -2px 4px;
+}
+.foot{
+    margin: auto;
+    text-align: center;
+}

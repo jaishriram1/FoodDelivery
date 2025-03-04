@@ -1,0 +1,89 @@
+body {
+    background: url("signin bg.jpg");
+    background-repeat: no-repeat center center/cover;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif, sans-serif;
+}
+
+.login {
+    background: rgb(255, 255, 255);
+    /*color: aliceblue;*/
+    height: 395px;
+    width: 318px;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+
+.login h1 {
+    font-size: 32px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 7px 5px;
+}
+
+form .input-box {
+    margin: 17px 10px;
+    padding: 5px 5px;
+    position: relative;
+    box-sizing: border-box;
+    border-bottom: 2px solid black;
+}
+
+.input-box input {
+    width: 88%;
+    padding: 0px 5px;
+    border: none;
+    height: 40px;
+    outline: none;
+}
+
+.remember-forgot {
+    padding: 10px 10px;
+    margin: 1px 1px;
+}
+
+.remember-forgot a {
+    text-decoration: none;
+    color: rgb(83, 86, 86);
+    padding: 0px 0px;
+}
+
+.remember-forgot a:hover {
+    color: rgb(0, 145, 255);
+}
+
+.btn {
+    height: 35px;
+    border: 0.1px solid;
+    border-radius: 16px;
+    background-color: rgb(0, 110, 255);
+    padding: 5px 0px;
+    margin: 7px 9px;
+    justify-content: center;
+    align-items: center;
+    width: 94%;
+    font-size: 15px;
+    color: antiquewhite;
+    box-shadow: 4px 5px 6px rgb(146, 141, 141);
+}
+
+.registor {
+    padding: 32px 36px;
+}
+.registor a{
+    text-decoration: none;
+    color: rgb(0, 94, 255);
+}
+.registor a:hover{
+    color: red;
+}
